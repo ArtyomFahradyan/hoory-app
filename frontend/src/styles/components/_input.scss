@@ -1,0 +1,27 @@
+@import "src/styles/abstracts/variables";
+
+.text-input {
+  background-color: $light-gray;
+  border: none;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  width: 100%;
+  padding-left: 10px;
+
+  &.input-text-center {
+    text-align: center;
+  }
+  &:focus{
+    outline: none;
+  }
+  &::placeholder{
+    color: $santas-gray;
+  }
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 17px;
+}

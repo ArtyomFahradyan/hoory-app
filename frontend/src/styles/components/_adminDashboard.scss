@@ -1,0 +1,53 @@
+.admin-dashboard {
+
+  .dashboard-content {
+    @extend %absolute-centering;
+    width: 300px;
+
+    .content-item {
+      width: 100%;
+      margin-bottom: 10px;
+
+      button {
+        width: 100%;
+        position: absolute;
+        right: 0;
+        background-color: $light-gray;
+        border: none;
+        padding: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #575757;
+        font-size: 1rem;
+        font-weight: 500;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .search-wrapper {
+        position: relative;
+        input {
+          width: 100%;
+          background-color: $light-gray;
+          border: none;
+          height: 35px;
+          border-radius: 7px;
+          padding-left: 10px;
+
+          &:focus {
+            outline: none;
+          }
+        }
+        img {
+          position: absolute;
+          width: 25px;
+          height: 25px;
+          right: 5px;
+          top: 5px;
+        }
+      }
+    }
+  }
+}

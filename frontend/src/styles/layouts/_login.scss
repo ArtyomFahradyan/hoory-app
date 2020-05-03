@@ -1,0 +1,24 @@
+.login-page {
+	@extend %absolute-centering;
+
+	.step-logo {
+		text-align: center;
+		margin-bottom: 70px;
+	}
+	a {
+		color: black;
+		text-decoration: underline;
+	}
+
+	& .signup-content-form {
+		width: 350px;
+		.form-state {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+	}
+
+	& > main {
+		height: auto;
+	}
+}

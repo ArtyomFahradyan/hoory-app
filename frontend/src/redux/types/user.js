@@ -1,0 +1,19 @@
+const typePrefix = 'user';
+
+export const SIGN_IN_RESPONSE = `${typePrefix}/SIGN_IN_RESPONSE`;
+export const LOGOUT_REQUEST = `${typePrefix}/LOGOUT_REQUEST`;
+export const LOGOUT_RESPONSE = `${typePrefix}/LOGOUT_RESPONSE`;
+export const SIGN_IN_REQUEST = `${typePrefix}/SIGN_IN_REQUEST`;
+export const SIGN_UP_REQUEST = `${typePrefix}/SIGN_UP_REQUEST`;
+export const SIGN_UP_RESPONSE = `${typePrefix}/SIGN_UP_RESPONSE`;
+export const GET_USER_RESPONSE = `${typePrefix}/GET_USER_RESPONSE`;
+export const GET_USER_REQUEST = `${typePrefix}/GET_USER_REQUEST`;
+export const SET_EDIT_WORKSPACE = `${typePrefix}/SET_EDIT_WORKSPACE`;
+export const REMOVE_EDIT_WORKSPACE = `${typePrefix}/REMOVE_EDIT_WORKSPACE`;
+export const EDIT_USER_REQUEST = `${typePrefix}/EDIT_USER_REQUEST`;
+export const EDIT_USER_RESPONSE = `${typePrefix}/EDIT_USER_RESPONSE`;
+export const DELETE_WORKSPACE_REQUEST = `${typePrefix}/DELETE_WORKSPACE_REQUEST`;
+export const DELETE_WORKSPACE_RESPONSE = `${typePrefix}/DELETE_WORKSPACE_RESPONSE`;
+export const ADD_WORKSPACE_REQUEST = `${typePrefix}/ADD_WORKSPACE_REQUEST`;
+export const ADD_WORKSPACE_RESPONSE = `${typePrefix}/ADD_WORKSPACE_RESPONSE`;
+export const SET_ACTION_RESULT = `${typePrefix}/SET_ACTION_RESULT`;

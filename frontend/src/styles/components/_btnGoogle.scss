@@ -1,0 +1,16 @@
+.btn-google {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 0;
+  background-color: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 11px 1px rgba(214, 214, 214, 0.5);
+  -moz-box-shadow: 0 0 11px 1px rgba(214, 214, 214, 0.5);
+  box-shadow: 0 0 11px 1px rgba(214, 214, 214, 0.5);
+
+  img {
+    margin-right: 10px;
+  }
+}

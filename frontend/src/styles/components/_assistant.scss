@@ -1,0 +1,41 @@
+.assistant-wrapper {
+  width: 100%;
+  background-color: $light-gray;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+
+  .icons {
+    display: flex;
+    position: absolute;
+    right: 5px;
+  }
+  .name-and-icon {
+    min-width: 200px;
+  }
+
+  .edit-icon-wrapper {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .assistant-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .edit-icon {
+    width: 20px;
+    height: 20px;
+    float: right;
+  }
+}
+

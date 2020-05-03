@@ -1,0 +1,21 @@
+.alert-notify {
+	width: 25.6rem;
+	padding: 2rem;
+	border-radius: .5rem;
+    position: fixed;
+    right: .5rem;
+	top: 4.4rem;
+	font-size: 1.3rem !important;
+	background-color: $alert;
+
+	& > .ui-pnotify-title {
+		margin-bottom: 1rem;
+	}
+
+	//& .s-alert-error {
+	//	background-color: $error;
+	//}
+	//& .success {
+	//	background-color: $success;
+	//}
+}
