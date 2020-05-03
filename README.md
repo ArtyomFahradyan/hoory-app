@@ -1,5 +1,5 @@
 # README #
-
+# hoory-app
 This README would normally document whatever steps are necessary to get your application up and running.
 
 ### Start api ###
@@ -13,5 +13,3 @@ This README would normally document whatever steps are necessary to get your app
 * cd frontend
 * yarn or npm i
 * yarn start or npm run start
-# hoory-app
-# hoory-app
